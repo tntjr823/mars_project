@@ -4,7 +4,7 @@
   --primary: #333;
   --accent: #fd7272;
   --accent2: #38ada9;
-  --gray-drak: #5d5d5d;
+  --gray-dark: #5d5d5d;
   --gray-mid: #808080;
   --gray-light: #e0e0e0;
 }
@@ -244,7 +244,7 @@ section {
   width: 46px;
   cursor: pointer;
   opacity: 0.5;
-  transition: all 0.8s;
+  transition: all 0.3s;
 }
 
 .arrow span:hover {
@@ -472,6 +472,7 @@ section {
 .section_03 .cards .card:hover i {
   top: 50%;
 }
+
 .section_03 .cards .card img {
   transition: all 0.3s;
 }
@@ -498,7 +499,7 @@ section {
 
 .section_05 .cards .card:hover {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
-  transition: scale(1.06);
+  transform: scale(1.06);
 }
 
 .section_05 .cards .card:hover img {
@@ -534,7 +535,6 @@ footer {
 
 .footer_menu {
   display: flex;
-  color: var(--gray-drak);
   font-size: 13px;
 }
 
@@ -573,5 +573,5 @@ footer {
 }
 
 .social a:hover {
-  color: var(--gray-drak);
+  color: var(--gray-dark);
 }
